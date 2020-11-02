@@ -6,8 +6,3 @@ const wilders = ['Jacopo', 'Fabien', 'Alfred','Lennart', 'Jeanloup', 'Nikolai', 
 for (let i = 0; i < wilders.length; i++) {
     console.log(chalk.rgb(rand(), rand(), rand())(`${wilders[i]}`)); 
 };
-
-// console.log(chalk.blue('Jane'));
-// console.log(chalk.red('Aya'));
-// console.log(chalk.white('Roxana'));
-// console.log(chalk.green('Teiko'));
